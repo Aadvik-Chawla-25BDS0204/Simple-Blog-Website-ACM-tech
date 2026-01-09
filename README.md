@@ -1,4 +1,4 @@
-#Simple Blog Website Design
+#Simple Blog Website Design:-
 This project is a simple, Front-end limited, responsive blog webpage built using HTMl, CSS and basic javascript codes. This webpage allows the users t0 create a blog with suitable heading, image and text. All changes made are stored in the LocalStorage.
 
 This project is built by using basic HTML and javascript with CSS for elementary designing.
