@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="heading">ACM tech Blog Webpage</h1>
+
+    <button onclick="adminLogin()">Login</button>
+
+    <div class="blog-box">
+        <h2 id="title">Test Blog</h2>
+
+        <img id="image" class="blog-image"
+             src="https://www.shutterstock.com/image-vector/welcome-colorful-letters-banner-can-260nw-1313361116.jpg">
+
+        <p id="content" class="blog-text">
+            This is my first blog.My name is Aadvik Chawla(25BDS0204) Only admin can edit the content.
+        </p>
+    </div>
+
+    <div class="admin-panel" id="adminPanel">
+        <h3>Write Blog</h3>
+
+        <input type="text" id="newTitle" placeholder="Blog title">
+        <input type="text" id="newImage" placeholder="Image URL">
+        <textarea id="newContent" placeholder="Blog content"></textarea>
+
+        <button onclick="saveBlog()">Save Blog</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

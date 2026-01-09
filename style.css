@@ -1,0 +1,74 @@
+body {
+    margin: 24px;
+    font-family: roboto, sans-serif;
+    background-color: rgb(252, 251, 226);
+    color:rgb(116, 32, 32);
+    font-size:30px;
+    font-weight:bold;
+}
+
+.heading {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color:rgb(15, 83, 15);
+    margin-bottom: 20px;
+    font-size:55px;
+    font-weight:bold;
+}
+
+.blog-box {
+    max-width: 700px;
+}
+
+.blog-image {
+    width: 85%;
+    margin: 15px 0;
+}
+
+.blog-text {
+    margin-top: 13px;
+    font-family:'sans-serif';
+    font-size: 22.5px;
+    color: rgb(72, 72, 72);
+    font-weight: 550;
+  
+
+
+}
+
+.admin-panel {
+    margin-top: 30px;
+    display: none;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: rgb(155, 84, 9);
+    color:whitesmoke;
+    border: none;
+    border-radius: 7.5px;
+    border-style:solid;
+
+
+
+
+
+}
+
+
+
+
+
+
